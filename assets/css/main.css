@@ -1299,7 +1299,7 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
-		#header .content {
+		#header .content, .socials {
 			border-style: solid;
 			border-color: #ffffff;
 			border-top-width: 1px;
