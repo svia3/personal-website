@@ -1308,9 +1308,6 @@ input, select, textarea {
 		}
 
 		#header .socials {
-			border-top-width: 1px;
-			border-bottom-width: 1px;
-			max-width: 100%;
 			font-weight: bold;
 			float: left;
 			display: inline-block;
