@@ -188,6 +188,13 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+		#header .socials a {
+			text-align: left;
+			text-decoration: none;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
