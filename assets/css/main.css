@@ -9,7 +9,7 @@
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite, 
+pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -1023,7 +1023,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8rem;
+		font-size: 1.0rem;
 		font-weight: 300;
 		height: 2.75rem;
 		letter-spacing: 0.2rem;
@@ -1335,6 +1335,7 @@ input, select, textarea {
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
+				text-align: justify;
 			}
 
 		#header nav ul {
@@ -1384,6 +1385,19 @@ input, select, textarea {
 			}
 
 
+		/* --------------------------------- */
+		/* ADDING STUFF TO THE IMAGE PATE */
+			#media .portrait {
+				/* margin: 10px 40px 20px  0px; */
+			}
+
+			#media li {
+				/* float: right; */
+				list-style-type:decimal-leading-zero;
+				font-size: 140%;
+				/* text-transform: uppercase; */
+				/* padding-left: 100px */
+			}
 		/* --------------------------------- */
 			#header nav ul li {
 				padding-left: 0;
@@ -1463,6 +1477,7 @@ input, select, textarea {
 
 			#header .content p br {
 				display: none;
+				/* text-align: justify; */
 			}
 
 		}
@@ -1585,6 +1600,7 @@ input, select, textarea {
 			width: 60rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
+			/* opacity: 1.0; */
 			border-radius: 4px;
 			opacity: 0;
 			font-size: 20px;
